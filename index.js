@@ -40,8 +40,3 @@ program
 program.parse();
 const options = program.opts();
 invokeAction(options)    
-
-// invokeAction({ action: "list" });
-// invokeAction({ action: "get", id: "qdggE76Jtbfd9eWJHrssH" });
-// invokeAction({ action: "remove", id: "MB9NAOPyzFsCYoRyXC9GD" });
-// invokeAction({ action: "add", name: "Dmytro Best", email: "db@gmail.com", phone: "(050) 887-4654"});
